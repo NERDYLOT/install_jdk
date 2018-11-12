@@ -3,5 +3,5 @@
 
   - name: install jdk
     yum:
-      name: jdk
+      name: "{{ required_rpms }}"
       state: latest

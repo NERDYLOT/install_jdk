@@ -1,2 +1,7 @@
 ---
 # defaults file for install_jdk
+
+required_rpms:
+  - java
+  - java-devel
+
